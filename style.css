@@ -5,6 +5,7 @@
    margin: 20px 10px;
    border-radius: 15px;
    margin-left: auto;
+   width: 60%;
 }
 
 .card1{
@@ -14,13 +15,16 @@
    margin: 20px 10px;
    border-radius: 15px;
    margin-left: auto;
+   width: 100%;
 }
+
 main{
    padding: 20px;
 }
 
-article{  
+.right{
    float: left;
+   margin-bottom: 20px;
 }
 
 .mugshot{
@@ -28,8 +32,7 @@ article{
 
 }
 
-h2,h1{
-   
+h2,h1{  
    text-align: center;
    display: flex;
    justify-content: center;
@@ -37,7 +40,6 @@ h2,h1{
    color: black;
    text-align: center;
 }
-
 
 .fix-typesetting{
    display: flex;
@@ -54,7 +56,6 @@ h2,h1{
    justify-content: center;
    align-items: center;
    text-align: center;
-   
 }
 
 .fix p{
@@ -62,8 +63,16 @@ h2,h1{
 }
 
 a{
-
    text-align: center;
    display: flex;
    justify-content: center;
+}
+
+.photo{
+   padding-top: 20px;
+}
+
+.ig{
+   width: 50px;
+   height: 50px;
 }
